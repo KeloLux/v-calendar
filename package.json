@@ -32,7 +32,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve src/lib.js",
-    "build": "yarn build:lib && yarn build:calendar && yarn build:date-picker && yarn build:popover && yarn build:popover-ref && yarn build:popover-row",
+    "build": "npm build:lib && npm build:calendar && npm build:date-picker && npm build:popover && npm build:popover-ref && npm build:popover-row",
     "build:lib": "vue-cli-service build --target lib src/lib.js --mode production",
     "build:calendar": "vue-cli-service build --target lib --dest lib/components --name calendar src/components/Calendar.vue",
     "build:date-picker": "vue-cli-service build --no-clean --target lib --dest lib/components --name date-picker src/components/DatePicker.vue",
